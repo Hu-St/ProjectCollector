@@ -1,0 +1,6 @@
+*.dep
+*.exe
+*.htm
+*.idb
+*.manifest
+*.res
