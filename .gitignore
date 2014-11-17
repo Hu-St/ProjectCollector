@@ -3,4 +3,9 @@
 *.htm
 *.idb
 *.manifest
+*.opensdf
 *.res
+*.sdf
+doxygenerated/
+Debug/
+Release/
