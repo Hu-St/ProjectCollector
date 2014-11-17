@@ -84,6 +84,7 @@
   <ItemGroup>
     <ClInclude Include="..\..\source\include\pc_mainpage.h" />
     <ClInclude Include="..\..\source\include\pc_types.h" />
+    <ClInclude Include="..\..\source\include\pc_types_results.hpp" />
     <ClInclude Include="..\..\source\include\pc_types_floating.hpp" />
   </ItemGroup>
   <ItemGroup>
