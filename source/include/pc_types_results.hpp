@@ -26,7 +26,9 @@ enum result_t
     RESULT_ERROR_BASE   = -1,   ///< Error base to generate further error codes.
 
     // Error codes
-    RESULT_ERROR_INVALID_ARGUMENT = RESULT_ERROR_BASE | 1
+    RESULT_ERROR_INVALID_ARGUMENT       = RESULT_ERROR_BASE | 1,
+    RESULT_ERROR_COULD_NOT_OPEN_DIR     = RESULT_ERROR_BASE | 2,
+    RESULT_ERROR_COULD_GET_DIR_CONTENT  = RESULT_ERROR_BASE | 3
 }; // result_t
 
 //-----------------------------------------------------------------------------

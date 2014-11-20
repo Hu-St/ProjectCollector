@@ -45,7 +45,7 @@ static const float32_t Float32Eps()
     \param[in]  rhs Second 32 bit floating point value.
     \return Returns true if both values are equal, else false will be returned.
  */
-bool AreFloat32Equal(const float32_t& lhs, const float32_t& rhs)
+static bool AreFloat32Equal(const float32_t& lhs, const float32_t& rhs)
 {
     float32_t lower = lhs - Float32Eps();
     float32_t upper = lhs + Float32Eps();
@@ -76,7 +76,7 @@ static const float64_t Float64Eps()
     \param[in]  rhs Second 64 bit floating point value.
     \return Returns true if both values are equal, else false will be returned.
  */
-bool AreFloat64Equal(const float64_t&lhs, const float64_t& rhs)
+static bool AreFloat64Equal(const float64_t&lhs, const float64_t& rhs)
 {
     float64_t lower = lhs - Float64Eps();
     float64_t upper = lhs + Float64Eps();

@@ -82,12 +82,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\source\include\dirent.h" />
+    <ClInclude Include="..\..\source\include\pc_file_lister.h" />
     <ClInclude Include="..\..\source\include\pc_mainpage.h" />
     <ClInclude Include="..\..\source\include\pc_types.h" />
     <ClInclude Include="..\..\source\include\pc_types_results.hpp" />
     <ClInclude Include="..\..\source\include\pc_types_floating.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\source\source\pc_file_lister.cpp" />
     <ClCompile Include="..\..\source\source\pc_main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
