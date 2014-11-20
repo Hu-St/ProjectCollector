@@ -1,11 +1,10 @@
 /**
-@file       pc_file_lister.h
+    \file       pc_file_lister.h
 
-@brief      Common type definitions.
+    \brief      Implementation of \ref FileLister class.
 
-@author     Hubert Strautz  (h.strautz@intenta.de)
-@data       2014/11/18
-@version    0.1
+    \author     Hubert Strautz  (h.strautz@intenta.de)
+    \data       2014/11/18
 */
 
 #ifndef PC_FILE_LISTER_H

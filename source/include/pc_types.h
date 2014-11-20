@@ -1,11 +1,10 @@
 /**
-    @file       pc_types.h
+    \file       pc_types.h
 
-    @brief      Common type definitions.
+    \brief      Common type definitions.
 
-    @author     Hubert Strautz  (h.strautz@intenta.de)
-    @data       2014/11/15
-    @version    0.1
+    \author     Hubert Strautz  (h.strautz@intenta.de)
+    \data       2014/11/15
  */
 
 #ifndef PC_TYPES_H

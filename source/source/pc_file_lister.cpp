@@ -1,3 +1,12 @@
+/**
+    \file       pc_file_lister.h
+
+    \brief      Implementation of \ref FileLister class.
+
+    \author     Hubert Strautz  (h.strautz@intenta.de)
+    \data       2014/11/18
+*/
+
 //-----------------------------------------------------------------------------
 // Includes
 //-----------------------------------------------------------------------------

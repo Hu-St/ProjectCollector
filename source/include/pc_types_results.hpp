@@ -1,11 +1,10 @@
 /**
-@file       pc_types_results.hpp
+    \file       pc_types_results.hpp
 
-@brief      Definitions of error type and codes and implementation of helper functions.
+    \brief      Definitions of error type and codes and implementation of helper functions.
 
-@author     Hubert Strautz  (h.strautz@intenta.de)
-@data       2014/11/17
-@version    0.1
+    \author     Hubert Strautz  (h.strautz@intenta.de)
+    \data       2014/11/17
 */
 
 #ifndef PC_TYPES_RESULTS_HPP

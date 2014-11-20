@@ -1,11 +1,10 @@
 /**
-    @file       pc_types_floating.hpp
+    \file       pc_types_floating.hpp
 
-    @brief      Definitions of floating point types.
+    \brief      Definitions of floating point types.
 
-    @author     Hubert Strautz  (h.strautz@intenta.de)
-    @data       2014/11/15
-    @version    0.1
+    \author     Hubert Strautz  (h.strautz@intenta.de)
+    \data       2014/11/15
  */
 
 #ifndef PC_TYPES_FLOATING_HPP
