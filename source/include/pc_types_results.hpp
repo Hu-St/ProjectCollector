@@ -25,9 +25,16 @@ enum result_t
     RESULT_ERROR_BASE   = -1,   ///< Error base to generate further error codes.
 
     // Error codes
-    RESULT_ERROR_INVALID_ARGUMENT       = RESULT_ERROR_BASE | 1,
-    RESULT_ERROR_COULD_NOT_OPEN_DIR     = RESULT_ERROR_BASE | 2,
-    RESULT_ERROR_COULD_GET_DIR_CONTENT  = RESULT_ERROR_BASE | 3
+    /// Invalid function argument.
+    RESULT_ERROR_INVALID_ARGUMENT           = RESULT_ERROR_BASE | 1,
+    /// Wasn't possible to open desired directory.
+    RESULT_ERROR_COULD_NOT_OPEN_DIR         = RESULT_ERROR_BASE | 2,
+    /// Wasn't possible to open desired file.
+    RESULT_ERROR_COULD_NOT_OPEN_FILE        = RESULT_ERROR_BASE | 3,
+    /// Wasn't pssoble to get directory entry.
+    RESULT_ERROR_COULD_NOT_GET_DIR_CONTENT  = RESULT_ERROR_BASE | 4,
+    /// Wasn't possible to detect end of include syntax - #include "file.h".
+    RESULT_ERROR_NO_END_OF_INCLUDE          = RESULT_ERROR_BASE | 5
 }; // result_t
 
 //-----------------------------------------------------------------------------

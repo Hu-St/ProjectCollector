@@ -4,6 +4,7 @@
 #include <cstdio>
 
 #include "pc_file_lister.h"
+#include "pc_include_lister.h"
 
 using namespace pc;
 
@@ -63,6 +64,15 @@ int main(int argc, char* argv[])
     {
         success = fileLister.GetFilesFromRootDirectory(files, arguments.sourceDir);
     } // Get all files.
+
+    // Get includes.
+    pc::IncludeLister includeLister;
+    std::vector<std::string> includes;
+
+    if (RESULT_SUCCESS == success)
+    {
+        success = includeLister.GetIncludesFromFile(includes, arguments.mainFile);
+    } // Get includes.
 
     return 1;
 }

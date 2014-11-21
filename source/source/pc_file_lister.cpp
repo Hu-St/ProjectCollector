@@ -1,5 +1,5 @@
 /**
-    \file       pc_file_lister.h
+    \file       pc_file_lister.cpp
 
     \brief      Implementation of \ref FileLister class.
 
@@ -91,7 +91,7 @@ result_t FileLister::GetFilesFromDirectory(
                 // Check if any problem occurs due getting next directory entry.
                 if (0 == content)
                 {
-                    result = RESULT_ERROR_COULD_GET_DIR_CONTENT;
+                    result = RESULT_ERROR_COULD_NOT_GET_DIR_CONTENT;
                 }
 
                 // Check type of entry.
